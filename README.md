@@ -1,5 +1,5 @@
 # 💫 About Me:
-🔭 I’m currently looking for work<br>🌱 I’m currently learning front-end development<br>💬 Ask me about what I love to do and I'll love to answer<br>⚡ A Fun fact about me is that I love to learn new things
+🔭 I’m currently looking for work<br>🌱 I’m currently learning front-end development<br>💬 I love solving problems<br>⚡ A Fun fact about me is that I love to learn new things
 
 
 ## 🌐 Socials:
