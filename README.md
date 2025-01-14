@@ -1,5 +1,5 @@
 # 🥇 About Me:
- My name is Vitor, and I am 19 years old. I have been passionate about technology for as long as I can remember. Throughout my life, I have learned to appreciate problem-solving and the convenience that technology brings to all of us. As a Systems Development Technician, I am currently pursuing a degree in Information Systems to specialize and grow in this field that fascinates me so much. In addition, I am seeking an opportunity to start my professional career in IT, put my knowledge into practice, and continue learning along the way.
+ My name is Vitor, I am 19 years old and I have been passionate about technology for as long as I can remember. Throughout my life, I have learned to appreciate problem-solving and the convenience that technology brings to all of us. As a Systems Development Technician, I am currently pursuing a degree in Information Systems to specialize and grow in this field that fascinates me so much. In addition, I am seeking an opportunity to start my professional career in IT, put my knowledge into practice, and continue learning along the way.
 
 <div align="left">
   <a href="https://www.instagram.com/_.vitin05" target="_blank">
