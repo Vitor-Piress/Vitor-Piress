@@ -6,14 +6,14 @@
 
 ```javascript
 Skills = {
-        Frontend: ['ReactJs', 'JavaScript', 'HTML5', 'CSS3'],
+        Frontend: ['ReactJs', 'JavaScript', 'HTML5', 'Tailwind CSS'],
         Backend: ['Java', 'MySQL'],
         Design: ['Figma', 'Photoshop'],
         Languages: ['Javascript', 'Java'],
 }
 
 Personal = {
-        Activity: ['Learning front-end developtment', 'Making some personal projects'],
+        Activity: ['Learning front-end developtment', 'Making some personal projects & Studying'],
 }
 ```
 
