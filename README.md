@@ -56,9 +56,9 @@ const developerProfile = {
 
 ## Principais Projetos
 
-- **CondoNoti:** SaaS para gestão condominial, notificações formais e relatórios (`React`, `TS`, `Tailwind`, `Supabase`, `Resend`, `Cloudflare`).
-- **Central Digital de Hóspedes (Moradas do Gabriel):** Web app para experiência e gestão de hóspedes em pousada (`React`, `TS`, `Tailwind`, `Supabase`, `Resend`).
-- **KAC:** Kanban para gestão visual de rotinas administrativas em condomínios.
+- **CondoNot:** SaaS para gestão condominial, notificações formais e relatórios (`React`, `TS`, `Tailwind`, `Supabase`, `Resend`, `Cloudflare`).
+- **Site oficial Moradas do Gabriel (Landing Page, Linktree, Guia, CMS):** Web app para experiência e gestão de hóspedes em pousada (`React`, `TS`, `Tailwind`, `Supabase`, `Resend`).
+- **Kanban para Administração Condomínios (KAC):** Kanban para gestão visual de rotinas administrativas em condomínios.
 
 ---
 
