@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 150" width="420" height="150">
   <defs>
     <style>
-      .bg { fill: #151515; rx: 10px; }
+      .bg { fill: #151515; rx: 10px; stroke: #262626; stroke-width: 1px; }
       .title { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 13px; font-weight: 700; fill: #e4e2e2; letter-spacing: 0.6px; }
       .sub { font-family: 'SFMono-Regular', Consolas, monospace; font-size: 10px; fill: #3ECF8E; }
       .box { fill: #1e1e1e; stroke: #2d2d2d; stroke-width: 1.2; rx: 10px; }
