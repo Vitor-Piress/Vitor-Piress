@@ -8,8 +8,6 @@ Graduando em Sistemas de Informação na **Unisul** (5ª fase) & Técnico em Des
   <a href="[https://www.linkedin.com/in/vitor-pires-74017a269/](https://www.linkedin.com/in/vitor-pires-74017a269/)" target="_blank"><img src="./linkedin.svg" alt="LinkedIn" width="160" height="46" /></a><a href="mailto:vitorspires25@gmail.com"><img src="./email.svg" alt="Email" width="260" height="46" /></a>
 </p>
 
----
-
 ## Sobre
 
 Desenvolvedor Full-Stack com foco na construção de **produtos SaaS de ponta a ponta (end-to-end)** — desde a arquitetura de interfaces e modelagem de banco de dados até automação de infraestrutura, rotinas de backup e deploy em produção.
