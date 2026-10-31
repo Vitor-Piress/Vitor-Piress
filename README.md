@@ -3,10 +3,8 @@
 **Desenvolvedor Full-Stack Web** | São José, SC — Brasil  
 Graduando em Sistemas de Informação na **Unisul** (5ª fase) & Técnico em Desenvolvimento de Sistemas.
 
-<p align="left">
-  <!-- <img src="./tech-stack.svg" alt="Tech Stack Animada" width="420" /><br /> -->
-  <a href="https://www.linkedin.com/in/vitor-pires-74017a269/" target="_blank"><img src="./linkedin.svg" target="_blank" alt="LinkedIn" width="160" height="46" /></a><a href="mailto:vitorspires25@gmail.com"><img src="./email.svg" alt="Email" width="260" height="46" /></a>
-</p>
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/vitor-pires-74017a269/)
+[![Gmail](https://img.shields.io/badge/Email-vitorspires25%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:vitorspires25@gmail.com)
 
 ## Sobre
 
