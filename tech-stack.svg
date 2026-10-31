@@ -1,0 +1,197 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 150" width="420" height="150">
+  <defs>
+    <style>
+      .bg { fill: #151515; rx: 10px; }
+      .title { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 13px; font-weight: 700; fill: #e4e2e2; letter-spacing: 0.6px; }
+      .sub { font-family: 'SFMono-Regular', Consolas, monospace; font-size: 10px; fill: #3ECF8E; }
+      .box { fill: #1e1e1e; stroke: #2d2d2d; stroke-width: 1.2; rx: 10px; }
+      
+      @keyframes float {
+        0%, 100% { transform: translateY(0px); }
+        50% { transform: translateY(-3.5px); }
+      }
+      @keyframes spin {
+        from { transform: rotate(0deg); }
+        to { transform: rotate(360deg); }
+      }
+      @keyframes pulse {
+        0%, 100% { opacity: 1; }
+        50% { opacity: 0.55; }
+      }
+
+      .item { animation: float 3.2s ease-in-out infinite; }
+      .d1 { animation-delay: 0.0s; }
+      .d2 { animation-delay: 0.2s; }
+      .d3 { animation-delay: 0.4s; }
+      .d4 { animation-delay: 0.6s; }
+      .d5 { animation-delay: 0.8s; }
+      .d6 { animation-delay: 1.0s; }
+      .d7 { animation-delay: 0.15s; }
+      .d8 { animation-delay: 0.35s; }
+      .d9 { animation-delay: 0.55s; }
+      .d10 { animation-delay: 0.75s; }
+      .d11 { animation-delay: 0.95s; }
+      .d12 { animation-delay: 1.15s; }
+
+      .react-spin {
+        transform-origin: 21px 21px;
+        animation: spin 10s linear infinite;
+      }
+      .glow-pulse {
+        animation: pulse 2.2s ease-in-out infinite;
+      }
+    </style>
+  </defs>
+
+  <rect class="bg" width="420" height="150" rx="10" />
+
+  <text x="22" y="25" class="title">CORE STACK + INFRASTRUCTURE</text>
+  <text x="398" y="25" class="sub" text-anchor="end">full-stack.ts</text>
+
+  <!-- 1. TypeScript -->
+  <g transform="translate(21, 38)">
+    <g class="item d1">
+      <rect class="box" width="42" height="42" rx="10" style="stroke: #3178C644;" />
+      <rect x="8" y="8" width="26" height="26" rx="4" fill="#3178C6" />
+      <path d="M18.5 20.5H15V29H12.5V20.5H9V18.5H18.5V20.5ZM26.5 26.2C26.5 25.1 25.7 24.6 24.1 24C22.2 23.3 20.8 22.4 20.8 20.6C20.8 18.8 22.3 17.5 24.6 17.5C26.3 17.5 27.6 18 28.3 18.5L27.5 20.4C26.9 20 25.8 19.5 24.6 19.5C23.4 19.5 22.9 20 22.9 20.6C22.9 21.4 23.6 21.8 25.3 22.4C27.4 23.2 28.6 24.2 28.6 26.1C28.6 28.1 27.1 29.5 24.3 29.5C22.5 29.5 21.1 28.9 20.3 28.3L21.1 26.3C22 26.9 23.2 27.5 24.5 27.5C25.8 27.5 26.5 27 26.5 26.2Z" fill="#fff" />
+    </g>
+  </g>
+
+  <!-- 2. React -->
+  <g transform="translate(88, 38)">
+    <g class="item d2">
+      <rect class="box" width="42" height="42" rx="10" style="stroke: #61DAFB44;" />
+      <g class="react-spin">
+        <circle cx="21" cy="21" r="2.6" fill="#61DAFB" />
+        <ellipse cx="21" cy="21" rx="13" ry="5" fill="none" stroke="#61DAFB" stroke-width="1.5" />
+        <ellipse cx="21" cy="21" rx="13" ry="5" fill="none" stroke="#61DAFB" stroke-width="1.5" transform="rotate(60 21 21)" />
+        <ellipse cx="21" cy="21" rx="13" ry="5" fill="none" stroke="#61DAFB" stroke-width="1.5" transform="rotate(120 21 21)" />
+      </g>
+    </g>
+  </g>
+
+  <!-- 3. Vite -->
+  <g transform="translate(155, 38)">
+    <g class="item d3">
+      <rect class="box" width="42" height="42" rx="10" style="stroke: #646CFF44;" />
+      <path d="M31 11L21.5 33L11 11L21.5 14.5L31 11Z" fill="#646CFF" opacity="0.85" />
+      <path class="glow-pulse" d="M25.5 9L17.5 21.5H22.5L19.5 31L29.5 17.5H23.5L25.5 9Z" fill="#FFD62E" />
+    </g>
+  </g>
+
+  <!-- 4. Tailwind CSS -->
+  <g transform="translate(222, 38)">
+    <g class="item d4">
+      <rect class="box" width="42" height="42" rx="10" style="stroke: #38BDF844;" />
+      <path d="M21 13.5C17.3 13.5 15 15.3 14.1 19C15.5 17.2 17.1 16.5 18.9 17C19.9 17.2 20.7 18 21.5 18.9C22.9 20.3 24.5 21.9 27.9 21.9C31.6 21.9 33.9 20.1 34.8 16.4C33.4 18.2 31.8 18.9 30 18.4C29 18.2 28.2 17.4 27.4 16.5C26 15.1 24.4 13.5 21 13.5ZM14.1 21.9C10.4 21.9 8.1 23.7 7.2 27.4C8.6 25.6 10.2 24.9 12 25.4C13 25.6 13.8 26.4 14.6 27.3C16 28.7 17.6 30.3 21 30.3C24.7 30.3 27 28.5 27.9 24.8C26.5 26.6 24.9 27.3 23.1 26.8C22.1 26.6 21.3 25.8 20.5 24.9C19.1 23.5 17.5 21.9 14.1 21.9Z" fill="#38BDF8" />
+    </g>
+  </g>
+
+  <!-- 5. Node.js -->
+  <g transform="translate(289, 38)">
+    <g class="item d5">
+      <rect class="box" width="42" height="42" rx="10" style="stroke: #5FA04E44;" />
+      <g transform="translate(8, 8) scale(1.083)">
+        <path d="M11.998,24c-0.321,0-0.641-0.084-0.922-0.247l-2.936-1.737c-0.438-0.245-0.224-0.332-0.08-0.383 c0.585-0.203,0.703-0.25,1.328-0.604c0.065-0.037,0.151-0.023,0.218,0.017l2.256,1.339c0.082,0.045,0.197,0.045,0.272,0l8.795-5.076 c0.082-0.047,0.134-0.141,0.134-0.238V6.921c0-0.099-0.053-0.192-0.137-0.242l-8.791-5.072c-0.081-0.047-0.189-0.047-0.271,0 L3.075,6.68C2.99,6.729,2.936,6.825,2.936,6.921v10.15c0,0.097,0.054,0.189,0.139,0.235l2.409,1.392 c1.307,0.654,2.108-0.116,2.108-0.89V7.787c0-0.142,0.114-0.253,0.256-0.253h1.115c0.139,0,0.255,0.112,0.255,0.253v10.021 c0,1.745-0.95,2.745-2.604,2.745c-0.508,0-0.909,0-2.026-0.551L2.28,18.675c-0.57-0.329-0.922-0.945-0.922-1.604V6.921 c0-0.659,0.353-1.275,0.922-1.603l8.795-5.082c0.557-0.315,1.296-0.315,1.848,0l8.794,5.082c0.57,0.329,0.924,0.944,0.924,1.603 v10.15c0,0.659-0.354,1.273-0.924,1.604l-8.794,5.078C12.643,23.916,12.324,24,11.998,24z M19.099,13.993 c0-1.9-1.284-2.406-3.987-2.763c-2.731-0.361-3.009-0.548-3.009-1.187c0-0.528,0.235-1.233,2.258-1.233 c1.807,0,2.473,0.389,2.747,1.607c0.024,0.115,0.129,0.199,0.247,0.199h1.141c0.071,0,0.138-0.031,0.186-0.081 c0.048-0.054,0.074-0.123,0.067-0.196c-0.177-2.098-1.571-3.076-4.388-3.076c-2.508,0-4.004,1.058-4.004,2.833 c0,1.925,1.488,2.457,3.895,2.695c2.88,0.282,3.103,0.703,3.103,1.269c0,0.983-0.789,1.402-2.642,1.402 c-2.327,0-2.839-0.584-3.011-1.742c-0.02-0.124-0.126-0.215-0.253-0.215h-1.137c-0.141,0-0.254,0.112-0.254,0.253 c0,1.482,0.806,3.248,4.655,3.248C17.501,17.007,19.099,15.91,19.099,13.993z" fill="#5FA04E" />
+      </g>
+    </g>
+  </g>
+
+  <!-- 6. Fastify -->
+  <g transform="translate(356, 38)">
+    <g class="item d6">
+      <rect class="box" width="42" height="42" rx="10" style="stroke: #ffffff44;" />
+      <path class="glow-pulse" d="M26.5 9.5C24.8 11 22.8 11.2 19.8 11C16.2 10.8 13.5 12.2 11.2 16.2L7 19.8L10.2 19.2L7.5 22.5L9.8 24.8L11.8 24.5L13.5 25.8L12.8 23.8L14 24.6L14.3 23.2L15.4 23.8L16.3 19.5C18.5 19.2 20.2 21 20.2 23.2C20.2 25.3 18.4 26.8 16.3 26.8L16 28.2L14.8 27.6L14.4 28.8L15.8 30.8L18.8 31.2L24.5 27.5L32.2 25.5L33.4 22.2L26.2 24.1V21.3L33.8 19.3L35 16L26.2 18.3V15.5L35.4 13.1L36.6 9.8L25.8 12.6C26.3 11.4 26.6 10.3 26.5 9.5Z" fill="#FFFFFF" />
+      <path d="M16 17.8L19.8 14.2L18.7 17.2L16.6 18.6Z" fill="#1e1e1e" />
+      <polygon points="20.8,18.2 23.3,17.5 22.6,19.8 20.1,20.5" fill="#1e1e1e" />
+      <polygon points="20.0,21.0 22.5,20.3 21.8,22.6 19.3,23.3" fill="#1e1e1e" />
+      <polygon points="23.0,20.2 25.5,19.5 24.8,21.8 22.3,22.5" fill="#1e1e1e" />
+    </g>
+  </g>
+
+  <!-- 7. PostgreSQL (Fiel à imagem de referência oficial Slonik) -->
+  <g transform="translate(21, 92)">
+    <g class="item d7">
+      <rect class="box" width="42" height="42" rx="10" style="stroke: #33679166;" />
+      
+      <!-- Camada de Contorno Externo Preto (Estilo Sticker Oficial) -->
+      <g stroke="#000000" stroke-width="3.2" stroke-linejoin="round" stroke-linecap="round">
+        <!-- Orelha Esquerda -->
+        <path d="M 18 10 C 9.5 8.5, 6.5 14, 7.5 22.5 C 8.3 29, 13.5 30, 15.8 26.5 Z" fill="#336791" />
+        <!-- Orelha Direita -->
+        <path d="M 24.5 10.5 C 32.5 8.5, 35.5 13.5, 34 21.5 C 32.8 26.5, 30 27.5, 27.5 26 Z" fill="#336791" />
+        <!-- Cabeça e Tromba Central -->
+        <path d="M 13.5 22 C 13 13.5, 16.5 9.2, 21.5 9.2 C 26.5 9.2, 29.8 13.5, 29 21.5 C 28.5 25.5, 27.2 29, 27.2 33 C 27.2 36, 25.2 37.2, 23 37.2 C 20.5 37.2, 19.8 35.5, 19.8 32.5 L 19.8 26.5 C 16.2 26.5, 13.8 24.8, 13.5 22 Z" fill="#336791" />
+        <!-- Presa Esquerda -->
+        <path d="M 19.5 26.5 C 18.2 29, 15 30, 13.5 29 C 14.8 27.8, 16.5 27.5, 17.8 25.5 Z" fill="#336791" />
+        <!-- Presa Direita -->
+        <path d="M 27.8 25.8 C 29.5 27.5, 32.8 27.5, 34.5 26.2 C 33.5 28.5, 30 29, 27.4 27.8 Z" fill="#336791" />
+      </g>
+
+      <!-- Camada Principal com Contorno Branco Oficial (#336791 + #FFFFFF) -->
+      <g stroke="#FFFFFF" stroke-width="1.35" stroke-linejoin="round" stroke-linecap="round">
+        <!-- Orelha Esquerda -->
+        <path d="M 18 10 C 9.5 8.5, 6.5 14, 7.5 22.5 C 8.3 29, 13.5 30, 15.8 26.5 Z" fill="#336791" />
+        <!-- Orelha Direita -->
+        <path d="M 24.5 10.5 C 32.5 8.5, 35.5 13.5, 34 21.5 C 32.8 26.5, 30 27.5, 27.5 26 Z" fill="#336791" />
+        <!-- Cabeça e Tromba Central -->
+        <path d="M 13.5 22 C 13 13.5, 16.5 9.2, 21.5 9.2 C 26.5 9.2, 29.8 13.5, 29 21.5 C 28.5 25.5, 27.2 29, 27.2 33 C 27.2 36, 25.2 37.2, 23 37.2 C 20.5 37.2, 19.8 35.5, 19.8 32.5 L 19.8 26.5 C 16.2 26.5, 13.8 24.8, 13.5 22 Z" fill="#336791" />
+        
+        <!-- Linhas Internas das Bochechas / Sobrancelhas (Idêntico à referência) -->
+        <path d="M 13.6 18.2 C 16.5 16.5, 19.8 17.5, 19.8 21.5 C 19.8 23.5, 19.2 25.2, 18.5 26.3" fill="none" />
+        <path d="M 29.1 17.8 C 26.2 16.2, 23.5 17.5, 23.8 21.5 C 24 23.8, 25.5 25.2, 27.2 26.2" fill="none" />
+
+        <!-- Presa Esquerda -->
+        <path d="M 19.5 26.5 C 18.2 29, 15 30, 13.5 29 C 14.8 27.8, 16.5 27.5, 17.8 25.5 Z" fill="#336791" />
+        <!-- Presa Direita -->
+        <path d="M 27.8 25.8 C 29.5 27.5, 32.8 27.5, 34.5 26.2 C 33.5 28.5, 30 29, 27.4 27.8 Z" fill="#336791" />
+      </g>
+
+      <!-- Olhos Brancos Inclinados -->
+      <ellipse cx="17.2" cy="19.6" rx="1.15" ry="0.7" transform="rotate(14 17.2 19.6)" fill="#FFFFFF" />
+      <ellipse cx="26.0" cy="19.5" rx="1.15" ry="0.7" transform="rotate(-14 26.0 19.5)" fill="#FFFFFF" />
+    </g>
+  </g>
+
+  <!-- 8. Neon (Serverless Postgres) -->
+  <g transform="translate(88, 92)">
+    <g class="item d8">
+      <rect class="box" width="42" height="42" rx="10" style="stroke: #00E59955;" />
+      <path class="glow-pulse" d="M13 30V12L24 25V12H29V30L18 17V30H13Z" fill="#00E599" />
+    </g>
+  </g>
+
+  <!-- 9. Supabase -->
+  <g transform="translate(155, 92)">
+    <g class="item d9">
+      <rect class="box" width="42" height="42" rx="10" style="stroke: #3ECF8E44;" />
+      <path class="glow-pulse" d="M23.5 9L11.5 23.5H20.5L18.5 33L30.5 18.5H21.5L23.5 9Z" fill="#3ECF8E" />
+    </g>
+  </g>
+
+  <!-- 10. Cloudflare -->
+  <g transform="translate(222, 92)">
+    <g class="item d10">
+      <rect class="box" width="42" height="42" rx="10" style="stroke: #F3802044;" />
+      <path d="M28.5 27.5H13.5C10.7 27.5 8.5 25.3 8.5 22.5C8.5 20.1 10.2 18.1 12.5 17.6C13.4 13.8 16.8 11 20.9 11C25.4 11 29.1 14.4 29.5 18.8C31.8 19.2 33.5 21.2 33.5 23.5C33.5 25.8 31.3 27.5 28.5 27.5Z" fill="#F38020" />
+    </g>
+  </g>
+
+  <!-- 11. GitHub Actions -->
+  <g transform="translate(289, 92)">
+    <g class="item d11">
+      <rect class="box" width="42" height="42" rx="10" style="stroke: #2088FF44;" />
+      <circle cx="21" cy="21" r="10" fill="none" stroke="#2088FF" stroke-width="2" stroke-dasharray="4 2" class="react-spin" />
+      <polygon points="18.5,16.5 26.5,21 18.5,25.5" fill="#2088FF" />
+    </g>
+  </g>
+
+  <!-- 12. Linux / Zsh Terminal -->
+  <g transform="translate(356, 92)">
+    <g class="item d12">
+      <rect class="box" width="42" height="42" rx="10" style="stroke: #FCC62444;" />
+      <path d="M13 16L19 21L13 26" fill="none" stroke="#FCC624" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" />
+      <line x1="21" y1="26" x2="29" y2="26" stroke="#FCC624" stroke-width="2.4" stroke-linecap="round" class="glow-pulse" />
+    </g>
+  </g>
+</svg>

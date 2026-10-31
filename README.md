@@ -3,8 +3,10 @@
 **Desenvolvedor Full-Stack Web** | São José, SC — Brasil  
 Graduando em Sistemas de Informação na **Unisul** (5ª fase) & Técnico em Desenvolvimento de Sistemas.
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/vitor-pires-74017a269/)
-[![Gmail](https://img.shields.io/badge/Email-vitorspires25%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:vitorspires25@gmail.com)
+<p align="left">
+  <img src="./tech-stack.svg" alt="Tech Stack Animada" width="420" /><br />
+  <a href="[https://www.linkedin.com/in/vitor-pires-74017a269/](https://www.linkedin.com/in/vitor-pires-74017a269/)" target="_blank"><img src="./linkedin.svg" alt="LinkedIn" width="160" height="46" /></a><a href="mailto:vitorspires25@gmail.com"><img src="./email.svg" alt="Email" width="260" height="46" /></a>
+</p>
 
 ---
 
@@ -31,7 +33,9 @@ const developerProfile = {
   ],
   backendAndDatabase: [
     "Node.js",
+    "Fastify (REST APIs)",
     "PostgreSQL",
+    "Neon (Serverless Postgres)",
     "Supabase (Auth, Database, Storage)",
   ],
   cloudAndDevOps: [
@@ -61,10 +65,3 @@ const developerProfile = {
 - **Kanban para Administração Condomínios (KAC):** Kanban para gestão visual de rotinas administrativas em condomínios.
 
 ---
-
-<div align="center">
-  <img height="150em" src="https://github-readme-streak-stats.herokuapp.com/?user=Vitor-Piress&theme=dark&hide_border=true" alt="GitHub Streak" />
-  <img height="150em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Vitor-Piress&theme=dark&hide_border=true&include_all_commits=false&count_private=true&layout=compact" alt="Top Languages" />
-</div>
-
-![](https://visitcount.itsvg.in/api?id=Vitor-Piress&icon=0&color=0)
